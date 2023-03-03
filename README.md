@@ -1,5 +1,5 @@
 # Elden-Ring-Rune-Predictor-ERRP
-A Elden Ring Rune Predictor (or ERRP) using C++ and the wxwidget library to create an executable. When running the exe, you input your current level then desired number of level ups (inputing 1 gives you 1 stat point).
+A Elden Ring Rune Predictor (or ERRP) using C++ and the wxwidget library to create an simple window that calculates runes needed for leveling up. When running the exe, you input your current level then desired number of level ups (inputing 1 gives you 1 stat point).
 
 
 I followed this awesome tutorial on YouTube from 
