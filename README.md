@@ -16,4 +16,6 @@ Dr Technologist
 
 https://www.youtube.com/watch?v=-gL7lvaWlcI
 
+In edition, if you want to send just the exe to friends you need to change the 'Debug' option to 'Release' and run it. The exe can be found in the 'Release' folder.
+
 Thanks for checking out my code!
