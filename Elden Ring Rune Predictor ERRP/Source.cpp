@@ -2,7 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <wx/spinctrl.h>
-
+#include "resource.h"
 
 
 class App : public wxApp {
@@ -58,7 +58,11 @@ public:
                 runeCostString += wxString::Format("To level %d: %d \n", nextlvl, roundRuneCost);
                 lvl = lvl + 1;
             }
+<<<<<<< HEAD
+
+=======
             
+>>>>>>> main
             runeCostText->SetLabelText(wxString::Format("Rune Cost for each level: \n %s", runeCostString));
 
             int result = std::round(totalRuneCost);
