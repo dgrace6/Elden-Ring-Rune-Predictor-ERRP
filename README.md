@@ -15,8 +15,4 @@ https://www.youtube.com/watch?v=BjQhp0eHmJw&list=PLFk1_lkqT8MbVOcwEppCPfjGOGhLvc
 
 Open the 'Elden Ring Rune Predictor ERRP.sln' with Visual Studio and make sure you are set to x86 at the top instead of x64 or win32.
 
-If you want the cool app icon to show up instead of default .exe, go back to environmental variables and create a new enviromental variable with the name 'ERRPICON' and set the path to the folder 'ERRP App Icon'.
-
-If you do not want the awesome icon, make sure to delete the '#include resource.h' from the source.cpp, as well as in the solution explorer on VS, delete everythin in the 'Resource Files' and 'Header Files'. That will keep the build from trying to access build with the icon.
-
 With environmental variable is set, the project should recognize all the functions in the source.cpp. Run the 'Local Windows Debugger' just to make sure there is no issues. If no issues pop up, change the 'Debug' option at the top to 'Release', then click the 'Build' option at the top and select 'Build Solution'. That will create a new folder, 'Release', next to the .sln. In there is the Application. Enjoy!
