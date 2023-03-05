@@ -30,7 +30,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\dghoo\Downloads\Hero_Rune.ico">
+    <Image Include="ERRP_ICON.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
