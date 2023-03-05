@@ -18,4 +18,4 @@ Open the 'Elden Ring Rune Predictor ERRP.sln' with Visual Studio and make sure y
 With environmental variable is set, the project should recognize all the functions in the source.cpp. Run the 'Local Windows Debugger' just to make sure there is no issues. If no issues pop up, change the 'Debug' option at the top to 'Release', then click the 'Build' option at the top and select 'Build Solution'. That will create a new folder, 'Release', next to the .sln. In there is the Application. Enjoy!
 
 Thanks for checking out my code!
->>>>>>> main
+
