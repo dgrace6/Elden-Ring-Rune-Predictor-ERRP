@@ -138,7 +138,7 @@ public:
 
         // Bind button click event to perform calculation
         addButton->Bind(wxEVT_BUTTON, [inputlvlGR, inputnumGR, grAmount](wxCommandEvent& event) {
-            int grlvl = inputlvlGR->GetValue();
+            int grlvl = inputlvlGR->GetValue() - 1;
             int numgr = inputnumGR->GetValue();
             grArray[grlvl] = grArray[grlvl] + numgr;
             wxString grTextArray;
